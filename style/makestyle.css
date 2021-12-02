@@ -1,0 +1,10 @@
+#carouselExampleFade{
+    margin-bottom: 100px;
+}
+header{
+    position: sticky;
+    z-index: 3;
+}
+.container{
+    margin-bottom: 100px;
+}
