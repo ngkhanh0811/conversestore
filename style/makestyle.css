@@ -57,3 +57,45 @@ header{
 .card:hover img{
     transform: scale(1.05);
 }
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+@keyframes In {
+    from{top: 50px} to {top: 100%}
+}
+.dropdown-menu{
+    animation: In 500ms;
+    position: relative;
+}
+.form{
+    width: 940px;
+    height: 500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+}
+.images{
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+.content{
+    border-left: 1px solid black;
+    float: right;
+    background-color: aliceblue;
+    width: 540px;
+    height: 450px;
+}
+a #register{
+    text-decoration: none;
+}
+.breadcrumb{
+    margin-left: 300px;
+    font-size: 20px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: darkgray;
+}
