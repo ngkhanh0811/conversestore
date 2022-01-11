@@ -20,10 +20,13 @@ header{
      color:white;
      padding-top:1.8em;
      display:inline-block;/* or block */
-     position:relative;
      border-color:white;
      text-decoration:none;
      transition:all .3s ease-out;
+     position: sticky;
+     bottom: 40px;
+     right: 10px;
+     color: black;
  }
 .to-top:before{
     content:'▲';
@@ -82,7 +85,6 @@ header{
     height: 300px;
 }
 .content{
-    border-left: 1px solid black;
     float: right;
     background-color: aliceblue;
     width: 540px;
@@ -92,10 +94,26 @@ a #register{
     text-decoration: none;
 }
 .breadcrumb{
-    margin-left: 300px;
+    margin-top: 15px;
+    margin-left: 150px;
     font-size: 20px;
 }
 .breadcrumb a{
     text-decoration: none;
     color: darkgray;
+}
+footer{
+    margin-bottom: -100px;
+    background-color: darkgray;
+    height: 380px;
+    background-image:url("../sale/footer.jpg");
+}
+.foot{
+    background-image:url("../sale/footer.jpg");
+}
+.logo{
+    margin-left: 30px;
+    font-family: "Book Antiqua";
+    font-size: 40px;
+    width : 600px;
 }
