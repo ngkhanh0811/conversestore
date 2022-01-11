@@ -117,3 +117,14 @@ footer{
     font-size: 40px;
     width : 600px;
 }
+.containera{
+    font-family: Candara;
+    font-size: 30px;
+    color: aliceblue;
+}
+.col .a{
+    margin-top: 20px;
+}
+.collapse{
+    margin-left: 15px;
+}
