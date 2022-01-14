@@ -128,3 +128,37 @@ footer{
 .collapse{
     margin-left: 15px;
 }
+.logofooter{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.footer-section{
+    color: #CCCCCC;
+}
+footer a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+footer a:hover{
+    color: white;
+}
+.footer-widget, .newslatter-item h5 {
+    color: white;
+}
+.footer-left{
+    margin-top: 20px;
+}
+.btn{
+    margin-right: 10px;
+}
+.hello{
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 940px;
+    height: 200px;
+    border-bottom: 1px solid #CCCCCC;
+    text-align: center;
+    display: inline-block;
+}
