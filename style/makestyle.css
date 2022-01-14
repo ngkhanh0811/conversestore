@@ -111,23 +111,6 @@ footer{
 .foot{
     background-image:url("../sale/footer.jpg");
 }
-.logo{
-    margin-left: 30px;
-    font-family: "Book Antiqua";
-    font-size: 40px;
-    width : 600px;
-}
-.containera{
-    font-family: Candara;
-    font-size: 30px;
-    color: aliceblue;
-}
-.col .a{
-    margin-top: 20px;
-}
-.collapse{
-    margin-left: 15px;
-}
 .logofooter{
     margin-top: 30px;
     margin-left: 120px;
@@ -148,6 +131,23 @@ footer a:hover{
 .footer-left{
     margin-top: 20px;
 }
+.logo{
+    margin-left: 30px;
+    font-family: "Book Antiqua";
+    font-size: 40px;
+    width : 600px;
+}
+.containera{
+    font-family: Candara;
+    font-size: 30px;
+    color: aliceblue;
+}
+.col .a{
+    margin-top: 20px;
+}
+.collapse{
+    margin-left: 15px;
+}
 .btn{
     margin-right: 10px;
 }
@@ -161,4 +161,7 @@ footer a:hover{
     border-bottom: 1px solid #CCCCCC;
     text-align: center;
     display: inline-block;
+}
+.nav-item{
+    margin-right: 15px;
 }
